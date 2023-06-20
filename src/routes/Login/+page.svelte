@@ -51,11 +51,11 @@
 	});
 </script>
 
-<svelte:head>
+<!-- <svelte:head>
 	<title>Login</title>
 	<meta name="description" content="Login for admin" />
 	<html lang="en" />
-</svelte:head>
+</svelte:head> -->
 
 <div
 	class="flex justify-center items-center h-screen bg-center bg-cover bg-blend-overlay bg-fixed bg-black/60"

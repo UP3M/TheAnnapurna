@@ -1,33 +1,33 @@
-<footer class="py-20 bg-gray-100">
-	<div class="max-w-screen-xl mx-auto flex justify-between space-x-14">
-		<div class="flex flex-col space-y-6 w-1/4">
+<footer class="py-5 bg-yellow-200">
+	<div class="max-w-screen-xl mx-auto md:flex justify-between space-x-14 space-y-3">
+		<div class="flex flex-col space-y-6 md:w-1/4">
 			<img src="/logo.png" width={200} height={100} alt="Screeno Logo" />
-			<p>our social media</p>
-			<div class="flex space-x-4">
-				<a href="https://t.me/okaresia"><img src="/icons/telegram.png" alt="Telegram" class="h-20 w-20"/></a>
-				<a href="https://github.com/UP3M/see-you-again"><img src="/icons/github.svg" alt="Github" class="h-20 w-20"/></a>
-			</div>
 		</div>
-		<div class="flex flex-col space-y-6 w-1/4">
+		<div class="flex flex-col space-y-3 md:w-1/4">
 			<h2 class="font-semibold font-heading">Contact Info</h2>
 			<div class="flex items-start space-x-2">
 				<img src="/icons/location.svg" alt="Location Icon" />
-				<p>1, Universitetskaya Str., Innopolis, 420500, Russia</p>
+				<p>
+					Address : Jalan Pandawa , No. 15, Perum Kelapa Gading, Belega, Blahbatuh, Gianyar Bali,
+					Indonesia-80581
+				</p>
 			</div>
 			<div class="flex items-center space-x-2">
 				<img src="/icons/phone.svg" alt="Phone Icon" />
-				<p>+7 939 731-79-93</p>
+				<p>+6285960669228</p>
 			</div>
 		</div>
-		<div class="flex flex-col space-y-6 w-1/2">
+		<div class="flex flex-col space-y-3 w-1/2">
 			<h2 class="font-heading font-semibold">Get in touch</h2>
 			<div class="flex items-center space-x-2">
 				<img src="/icons/email-blue.svg" alt="Email Icon" />
-				<p>m.wedamerta@innopolis.university</p>
+				<p>theannapurnabaliexpo@gmail.com</p>
 			</div>
 			<div class="flex items-center space-x-2">
-				<img src="/icons/email-blue.svg" alt="Email Icon" />
-				<p>v.zelenokor@innopolis.university</p>
+				<img src="/icons/instagram.svg" alt="Instagram Icon" />
+				<a href="https://instagram.com/annapurnabaliexpo?igshid=NTc4MTIwNjQ2YQ== "
+					>@theannapurnabaliexpo</a
+				>
 			</div>
 			<!-- <form class="flex flex-col space-y-6">
 				<input type="text" placeholder="Your name" />
@@ -41,5 +41,5 @@
 	</div>
 </footer>
 <div class="border-t-[1px] border-neutral-300 text-center py-4">
-	<p>©2023 See You Again Corp, All rights reserved</p>
+	<p>©2023 The Annapurna Baliexpo, All rights reserved</p>
 </div>

@@ -32,11 +32,11 @@
 	});
 </script>
 
-<svelte:head>
+<!-- <svelte:head>
 	<title>Create</title>
 	<meta name="description" content="Create a post for workspace" />
 	<html lang="en" />
-</svelte:head>
+</svelte:head> -->
 
 <div
 	class="flex justify-center items-center bg-center bg-cover bg-blend-overlay bg-fixed bg-black/60"

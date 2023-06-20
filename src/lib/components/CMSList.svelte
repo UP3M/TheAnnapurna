@@ -15,9 +15,9 @@
 	});
 </script>
 
-<div class="md:h-full flex flex-wrap items-center text-gray-600">
+<div class="lg:h-full flex flex-wrap items-center text-gray-600">
 	{#each postss as post, i}
-		<div class="p-4 w-1/3">
+		<div class="p-4 lg:w-1/2">
 			<ListCard {post} {i} />
 		</div>
 	{/each}

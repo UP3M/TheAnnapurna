@@ -1,77 +1,87 @@
 <script lang="ts">
 	const features = [
 		{
-			title: 'Pick your dream Workspace',
-			icon: 'location',
-			description: 'Choose the best location and your favorite workspace easily.'
+			title: 'Krupuk Kulit Ikan',
+			icon: 'pouchex'
+			// description: 'Choose the best location and your favorite workspace easily.'
 		},
 		{
-			title: 'Business Consultent',
-			icon: 'phone',
-			description: 'Know more about your new place and Get the best recomendation for your business from our team.'
+			title: 'Keripik Tempe',
+			icon: 'pouchex'
+			// description: 'Know more about your new place and Get the best recomendation for your business from our team.'
 		},
 		{
-			title: 'Legalization',
-			icon: 'email-blue',
-			description: 'We provide service that can deal with laws and regulations that the startup needs to comply.'
+			title: 'Sambal Kering Ebi',
+			icon: 'pouchex'
+			// description: 'We provide service that can deal with laws and regulations that the startup needs to comply.'
 		},
 		{
-			title: 'Monetization',
-			icon: 'monetization',
-			description: 'Offer subscriptions or one-time purchases. Accept credit cards & PayPal.'
+			title: 'Sambal kering Teri',
+			icon: 'pouchex'
+			// description: 'Offer subscriptions or one-time purchases. Accept credit cards & PayPal.'
 		},
 		{
-			title: 'Analytics',
-			icon: 'stream',
-			description: 'Know what your customer likes & how your product fit them.'
+			title: 'Keripik Tempe Flavored',
+			icon: 'pouchex'
+			// description: 'Know what your customer likes & how your product fit them.'
 		},
 		{
-			title: 'Upload & Organize',
-			icon: 'upload',
-			description:
-				'Upload your free space in our platform and we will organize it for you.'
+			title: 'Kerupuk Kulit Ikan Flavored',
+			icon: 'pouchex'
+			// description:	'Upload your free space in our platform and we will organize it for you.'
 		}
-		
-	]
+	];
 </script>
 
-<svelte:head>
+<!-- <svelte:head>
 	<title>See You Again</title>
 	<meta name="robots" content="" />
 	<html lang="en" />
-</svelte:head>
+</svelte:head> -->
 
 <!-- Hero Section -->
-<section class="flex flex-col min-h-screen bg-slate-700 text-white bg-center bg-cover bg-blend-overlay bg-fixed bg-black/25" style="background-image: url('https://assets.new.siemens.com/siemens/assets/api/uuid:5bf88a2ff3a0fc817e08b9379370a32420f07d7c/width:2000/quality:high/siemens-building-technologies-keyvisual.jpg')">
-	
-<!-- Hero Section Content -->
-<div class="flex-1 flex items-center">
-    <div class="text-center mx-auto">
-    <h1 class="text-6xl font-semibold">See You Again</h1>
-	<button class="mt-10 w-1/3 primary"><a href="/Workspace">Start Find Workspace</a></button>
-	<button class="mx-10 w-1/3 outline bg-black"><a href="mailto:m.wedamerta@innopolis.university">Contact Us</button>
-    </div>
-</div>
+<section
+	class="flex flex-col min-h-screen bg-slate-600 text-white bg-center bg-cover bg-blend-overlay bg-fixed bg-black/25"
+	style="background-image: url(../images/ikan.jpg)"
+>
+	<!-- Hero Section Content -->
+	<div class="flex-1 flex items-center">
+		<div class="text-center mx-auto">
+			<h1 class="text-6xl font-semibold">The Annapurna Baliexpo</h1>
+			<h2 class="text-xl font-semibold">
+				The expert of Indonesia Micro, Small Medium Enterprise products
+			</h2>
+			<button class="mt-10 w-1/3 outline bg-yellow-500 font-semibold"
+				><a href="/Workspace">Our Products</a></button
+			>
+			<button class="mx-10 w-1/3 outline bg-black"
+				><a href="mailto:theannapurnabaliexpo@gmail.com">Contact Us</a></button
+			>
+		</div>
+	</div>
 </section>
 
-<section class="p-10 text-white bg-gradient-to-b via-gray-500 from-green">
+<section class="p-10 text-white bg-gradient-to-b via-yellow-500 from-brightRed">
 	<div class="max-w-screen-xl mx-auto">
-		<div class="flex items-center space-x-24">
-			<div class="flex flex-col w-1/2">
+		<div class="md:flex items-center space-x-24">
+			<div class="flex flex-col md:w-1/2">
 				<div class="flex flex-col space-y-4">
-					<h2 class="text-5xl font-bold font-heading">Start and Expand your company with Us</h2>
+					<h2 class="text-4xl font-bold font-heading">
+						Making a Difference Millions Develop Superior
+					</h2>
 					<p class="text-justify">
-						The See You Again ecosystem is designed to help you to start and grow your business. Set up a perfect workspace and
-						get the best recomendation to expand your company with See You Again.
+						Our motto means helping various Micro, Small, Medium Enterprise (MSME) products from
+						various different classes, such as small and medium micro classes, will always work hand
+						in hand to grow and develop rapidly together.
 					</p>
-				</div>
-				<div class="flex mt-12 space-x-3">
-					<button class="w-1/3 primary"><a href="/Workspace">Start Find Workspace</a></button>
-					<button class="w-1/4 outline bg-black"><a href="mailto:m.wedamerta@innopolis.university">Contact Us</button>
 				</div>
 			</div>
 			<div class="relative w-1/2">
-				<img src=https://pluspng.com/img-png/png-travel-how-to-market-a-travel-and-tourism-outlet-826.png class="w-full h-full md:scale-110 object-bottom" alt="expansion" />
+				<img
+					src="https://pluspng.com/img-png/png-travel-how-to-market-a-travel-and-tourism-outlet-826.png"
+					class="md:scale-110 object-bottom"
+					alt="expansion"
+				/>
 			</div>
 		</div>
 	</div>
@@ -81,28 +91,27 @@
 	<div class="max-w-screen-lg mx-auto">
 		<div class="flex flex-col justify-center text-center">
 			<div class="flex flex-col space-y-3">
-				<h2 class="text-4xl font-bold font-heading">All-in-one platform</h2>
-				<p>You take care of the company product/service quality and we take care of everything else</p>
+				<h2 class="text-4xl font-bold font-heading">Our Products</h2>
+				<p>Balinese Authentic Snacks and Sauce</p>
 			</div>
 			<div class="flex justify-center mt-12 space-x-8">
-				<button class="w-1/4 primary"><a href="/Workspace">Start Find Workspace</a></button>
-				<button class="w-1/4 outline bg-black"><a href="mailto:m.wedamerta@innopolis.university">Contact Us</button>
-				</div>
+				<button class="w-1/4 primary"><a href="/Workspace">See Our Products</a></button>
+				<button class="w-1/4 outline bg-black"
+					><a href="mailto:theannapurnabaliexpo@gmail.com">Contact Us</a></button
+				>
+			</div>
 		</div>
-		<div class="grid grid-cols-3 gap-12 mt-20">
+		<div class="grid grid-cols-3 gap-12 mt-10">
 			{#each features as feature}
 				<div
 					class="flex flex-col p-4 space-y-3 hover:shadow-xl transition duration-300 cursor-pointer"
 				>
-					<div class="flex space-x-3">
-						<img
-							src={`/icons/${feature.icon}.svg`}
-							class="transform transition duration-300 hover:rotate-12"
-							alt={feature.title}
-						/>
-						<h5 class="font-bold font-heading">{feature.title}</h5>
-					</div>
-					<p>{feature.description}</p>
+					<img
+						src={`/icons/${feature.icon}.png`}
+						class="transform transition duration-300 hover:rotate-12"
+						alt={feature.title}
+					/>
+					<h5 class="font-bold font-heading text-center">{feature.title}</h5>
 				</div>
 			{/each}
 		</div>
@@ -110,109 +119,100 @@
 </section>
 
 <section class="p-10 py-20 text-white bg-black">
-	<div class="flex flex-col max-w-screen-xl mx-auto space-y-32">
+	<div class="flex flex-col max-w-screen-xl mx-auto space-y-20">
 		<div class="flex flex-col justify-center">
-			<h3 class="text-4xl font-bold text-center font-heading">We help you grow</h3>
+			<h3 class="text-4xl font-bold text-center font-heading">Benefits of Our Products</h3>
 		</div>
 
-		<div class="flex space-x-24">
-			<div class="flex flex-col justify-center w-1/2 space-y-6">
-				<h4 class="text-3xl font-semibold">Choose your plan as you wish</h4>
-				<p class="text-justify">
-					Pick our service that fits your company need. 
-					See You Again offer you freedom to choose either to pick one of our service as single purchases or
-					you can take full advantage of our services by doing full purchases.
-					Full purchases provide you extra services for business consultation and market analysis.
-				</p>
-				<div class="flex space-x-3 cursor-pointer group">
-					<p class="transition font-heading group-hover:font-bold">Get started</p>
-					<img
-						src="/icons/arrow.svg"
-						class="transition transform group-hover:translate-x-1"
-						alt="Arrow Icon"
-					/>
-				</div>
+		<div class="md:flex md:space-x-24 object-center">
+			<div class="relative flex md:w-1/2 w-3/5 h-40 md:h-full">
+				<img src="/images/tempe.jpg" class="w-full h-full object-center" alt="kripik tempe" />
 			</div>
-			<div class="relative w-1/2 flex flex-col items-center md:flex-row md:space-x-10">
-				<div class="flex flex-col py-8 space-y-3 text-black bg-white px-9 rounded-3xl -top-4 -left-6 text-center">
-					<p class ='font-bold'>Pick one of Our Services</p>
-					
-					<div
-						class="flex w-full px-3 py-4 space-x-16 transition duration-300 transform bg-gray-100 font-heading rounded-xl hover:bg-blue-100 hover:text-primary hover:translate-x-1 hover:-translate-y-1 hover:shadow-xl text-center"
-					>
-						<p>Legalization</p>
-					</div>
-					<div
-						class="flex w-full px-3 py-4 space-x-16 transition duration-300 transform bg-gray-100 font-heading rounded-xl hover:bg-blue-100 hover:text-primary hover:translate-x-1 hover:-translate-y-1 hover:shadow-xl"
-					>
-						<p>Finding Workspace</p>
-					</div>
-
-					<div
-						class="flex w-full px-3 py-4 space-x-16 font-semibold transition duration-300 transform bg-brightRed font-heading rounded-xl hover:bg-red-100 hover:text-primary hover:translate-x-1 hover:-translate-y-1 hover:shadow-xl"
-					>
-						<a href="mailto:m.wedamerta@innopolis.university">Single Purchases</a>
-					</div>
-				</div>
-
-				<div
-					class="flex flex-col py-8 space-y-3 text-black bg-white px-9 rounded-3xl -top-4 -left-6"
-				>
-					<p class="font-semibold">Get Our Services Fully</p>
-					<div class="flex w-full px-3 py-4 space-x-16 transition duration-300 transform bg-gray-100 font-heading rounded-xl hover:bg-blue-100 hover:text-primary hover:translate-x-1 hover:-translate-y-1 hover:shadow-xl"
-					>
-						<p>Business Consultation</p>
-					</div>
-					<div
-						class="flex w-full px-3 py-4 space-x-16 transition duration-300 transform bg-gray-100 font-heading rounded-xl hover:bg-blue-100 hover:text-primary hover:translate-x-1 hover:-translate-y-1 hover:shadow-xl text-center"
-					>
-						<p>Legalization</p>
-					</div>
-					<div
-						class="flex w-full px-3 py-4 space-x-16 transition duration-300 transform bg-gray-100 font-heading rounded-xl hover:bg-blue-100 hover:text-primary hover:translate-x-1 hover:-translate-y-1 hover:shadow-xl"
-					>
-						<p>Finding Workspace</p>
-					</div>
-
-					<div
-						class="flex w-full px-3 py-4 space-x-16 font-semibold transition duration-300 transform bg-green font-heading rounded-xl hover:bg-green-100 hover:text-primary hover:translate-x-1 hover:-translate-y-1 hover:shadow-xl"
-					>
-						<a href="mailto:m.wedamerta@innopolis.university">Full Purchases</a>
-					</div>
+			<div class="flex flex-col justify-center md:w-1/2 space-y-6">
+				<h4 class="text-2xl font-semibold">Keripik Tempe (Soybean Cake Chips)</h4>
+				<p class="text-justify">
+					Based on the Ministry of Health Indonesia , Keripik Tempe has some benefits :
+				</p>
+				<ul class="marker:text-sky-400 list-disc pl-5 space-y-3">
+					<li>Maintaining blood sugar stability is the benefit of the high fiber content.</li>
+					<li>
+						Preventing the risk of cardiovascular system disease is the benefit of high content of
+						calcium and thiamine.
+					</li>
+					<li>
+						Helping and increasing blood clotting is a benefit from the high content of calcium.
+					</li>
+					<li>
+						Minimizing the occurrence of stroke is the benefit of the high content of calcium and
+						phosphorus.
+					</li>
+					<li>
+						Maintaining and increasing the production of hemoglobin is a benefit of the high iron
+						content.
+					</li>
+					<li>Balancing the level of blood acidity is a benefit of high calcium content.</li>
+					<li>Reducing the risk of anemia is a benefit of the high iron content.</li>
+				</ul>
+				<div class="flex space-x-3 cursor-pointer group">
+					<a href="/Workspace">
+						<p class="transition font-heading group-hover:font-bold">See Our Product</p>
+						<img
+							src="/icons/arrow.svg"
+							class="transition transform group-hover:translate-x-1"
+							alt="Arrow Icon"
+						/>
+					</a>
 				</div>
 			</div>
 		</div>
 
-		<div class="flex space-x-24">
-			<div class="relative flex w-1/2">
-				<img src="/images/illustration-intro.svg" class="w-full h-full" alt="Optimized for growth" />
+		<div class="md:flex md:space-x-24">
+			<div class="relative flex md:w-1/2 w-3/5 h-40 md:h-full justify-center items-center">
+				<img src="/images/ikan2.jpg" class="w-full h-full" alt="kerupuk ikan" />
 			</div>
-			<div class="flex flex-col justify-center w-1/2 space-y-6">
-				<h5 class="text-3xl font-semibold">Optimized for growth</h5>
+			<div class="flex flex-col justify-center md:w-1/2 space-y-6">
+				<h5 class="text-3xl font-semibold">
+					Kerupuk KulitIkan Khas Bali (Balinese Fish Skin Crackers)
+				</h5>
 				<p class="text-justify">
-					See You Again wants to help every startup that wants to enter a new market 
-					by providing a product as service in the form of data analysis 
-					which will become the basis of information in making expansion decisions. 
-					See You Again will provide services in the form of Market Potential Analyzer,
-					Legal Service, Partnership Finder, Working space Finder, Team Finder
-					for the companies who want to present their company presence in new location
+					Based on the Ministry of Health Indonesia ,Kerupuk Kulit Ikan has some benefits :
 				</p>
+				<p class="text-justify">
+					High Nutrition ( Protein, Omega-3 fatty acids, Vitamin D, Vitamin E, Iodine, Selenium,
+					Taurine)
+				</p>
+				<ul class="marker:text-sky-400 list-disc pl-5 space-y-3">
+					<li>
+						Protein : Fish Skin has protein to boost our body to create new cell and tissue in our
+						body, maintain our zinc, and keep our health maintain
+					</li>
+					<li>
+						Omega-3 fatty acids : Reduce inflammation, maintain the heart healthy, stabilize the
+						blood pressure, reduce the brain disease, help to maintain the healthy of pregnancy and
+						the fetus.
+					</li>
+					<li>Vitamin D : Help to maintain our bones healthy,</li>
+					<li>Vitamin E : Maintain our skin healthy</li>
+					<li>Iodine : to make maintain thyroid hi</li>
+					<li>Selenium : help to boost immune function, improve the hair and the skin healthy</li>
+					<li>Taurine : improve the heart and the brain fat levels</li>
+				</ul>
 				<div class="flex space-x-3 cursor-pointer group">
-					<a href="mailto:m.wedamerta@innopolis.university">
-					<p class="transition font-heading group-hover:font-bold">Get started</p>
-					<img
-						src="/icons/arrow.svg"
-						class="transition transform group-hover:translate-x-1"
-						alt="Arrow Icon"
-					/>
-				</a>
+					<a href="/Workspace">
+						<p class="transition font-heading group-hover:font-bold">See Our Product</p>
+						<img
+							src="/icons/arrow.svg"
+							class="transition transform group-hover:translate-x-1"
+							alt="Arrow Icon"
+						/>
+					</a>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="pt-20 pb-40 text-white bg-black">
+<!-- <section class="pt-20 pb-40 text-white bg-black">
 	<div class="flex flex-col max-w-screen-lg mx-auto">
 		<div class="flex flex-col space-y-3 text-center">
 			<h6 class="text-4xl font-bold font-heading">Start your own business today</h6>
@@ -220,28 +220,35 @@
 		</div>
 		<div class="flex justify-center space-x-8 mt-14">
 			<button class="w-1/4 secondary"><a href="/Workspace">Start Find Workspace</a></button>
-			<button class="w-1/4 outline bg-black"><a href="mailto:m.wedamerta@innopolis.university">Contact Us</button>
+			<button class="w-1/4 outline bg-black"><a href="mailto:theannapurnabaliexpo@gmail.com">Contact Us</button>
 			
 		</div>
 	</div>
-</section>
+</section> -->
 
 <section class="p-10 pt-20 pb-32">
 	<div class="flex flex-col justify-center space-y-3 text-center">
-		<h7 class="text-4xl font-bold font-heading">Our Partnership Company</h7>
-		<p>Company that involve in our platform</p>
+		<h7 class="text-4xl font-bold font-heading">Our Partnership</h7>
 	</div>
 
-	<div class="flex flex-col overflow-hidden mt-24 space-y-6">
-		<div class="flex space-x-8">
-			<img src="/images/inno.jpg" alt="innopolis" class="w-[360px] h-[201px]" />
-			<img src="/images/svelte.png" alt="Svele" class="w-[360px] h-[201px]" />
-			<img src="/images/tailwindcss.png" alt="tailwindcss" class="w-[360px] h-[201px]" />
-			<img src="/images/firebase.png" alt="firebase" class="w-[360px] h-[201px]" />
+	<div
+		class="flex flex-col md:flex-row justify-center md:overflow-hidden mt-10 space-y-6 space-x-10"
+	>
+		<div class="flex justify-center md:space-x-8">
+			<img
+				src="https://th.bing.com/th/id/OIP.EHEdGmMaCuL9i8WgVU4_uwHaEq?pid=ImgDet&rs=1"
+				alt="pnm"
+				class="w-[360px] h-[180px]"
+			/>
+		</div>
+		<div class="flex justify-center md:space-x-8">
+			<img src="/images/tempego.png" alt="TempeGo" class="w-[360px] h-[180px]" />
+		</div>
+		<div class="flex justify-center md:space-x-8">
+			<img src="/images/ikanprod.png" alt="partner kulit Ikan" class="w-[360px] h-[180px]" />
 		</div>
 	</div>
 </section>
-
 
 <style lang="postcss" global>
 	button {
@@ -252,9 +259,6 @@
 	}
 	button.outline {
 		@apply border-white text-white border-[1px] hover:bg-white hover:text-black;
-	}
-	button.outline-dark {
-		@apply border-black text-black border-[1px] hover:bg-black hover:text-white;
 	}
 	button.secondary {
 		@apply bg-white text-black hover:bg-neutral-100;

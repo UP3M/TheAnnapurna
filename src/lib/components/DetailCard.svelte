@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { Post } from '$lib/models/post';
-  import authStore from '../../routes/stores/authStore';
+	import authStore from '../../routes/stores/authStore';
 
 	export let post_final: Post;
 	export let id: string;
@@ -46,13 +46,14 @@
 			</div>
 			<div class="relative flex flex-col items-center w-1/2 p-4">
 				<img class="w-100 rounded-lg" src={post_final.cover} alt="" />
-        {#if $authStore.firebaseController}
-				<a href="/Workspace/{id}/Update" class="py-10"
-					><button
-						class="py-4 text-sm font-bold text-white uppercase bg-teal-500 rounded-sm px-14 hover:bg-red-600"
-						>Update</button
-					></a>
-        {/if}
+				{#if $authStore.firebaseController}
+					<a href="/Workspace/{id}/Update" class="py-10"
+						><button
+							class="py-4 text-sm font-bold text-white uppercase bg-teal-500 rounded-sm px-14 hover:bg-red-600"
+							>Update</button
+						></a
+					>
+				{/if}
 			</div>
 		</div>
 	</main>
